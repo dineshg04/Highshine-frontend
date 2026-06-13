@@ -18,7 +18,7 @@ const ScheduleSection = () => {
       country:  getCountryName(),
     });
 
-   window.location.href = "/contact";
+   window.location.href = "/"; 
   };
   return (
     <>

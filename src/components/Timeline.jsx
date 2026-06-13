@@ -12,7 +12,7 @@ const Timeline = () => {
   return (
     <>
     
-    <div className="bg-[#120f28] py-20 px-6">
+    <div className="bg-linear-to-r from-brand-dark/100 via-brand-purple-mid/90 py-20 px-6">
       <div className="max-w-5xl mx-auto text-center">
         <p className="text-[#f5a623] text-xs font-bold tracking-widest uppercase mb-3">
           Milestones
@@ -22,7 +22,7 @@ const Timeline = () => {
         </h2>
 
         {/* Timeline */}
-<div className="relative">
+<div className="relative ml-40 md:ml-0">
   {/* Desktop Horizontal Line */}
   <div className="hidden md:block absolute top-4 left-0 right-0 h-0.5 bg-gradient-to-r from-purple-800 via-[#f5a623] to-purple-800" />
 
@@ -37,7 +37,7 @@ const Timeline = () => {
       >
         {/* Dot */}
         <div
-          className={`w-8 h-8 rounded-full border-2 flex items-center justify-center z-10 shrink-0 md:mb-4 transition-all hover:border-4 ${
+          className={`   w-8 h-8 rounded-full border-2 flex items-center justify-center z-10 shrink-0 md:mb-4 transition-all hover:border-4 ${
             m.active
               ? "bg-[#f5a623] border-[#f5a623] shadow-[0_0_14px_rgba(245,166,35,0.6)]"
               : "bg-[#1e1640] border-purple-600"
@@ -51,7 +51,7 @@ const Timeline = () => {
         </div>
 
         {/* Content */}
-        <div className="ml-4 md:ml-0 md:text-center">
+        <div className="ml-4 md:ml-0 md:text-center ">
           <p
             className={`text-lg font-bold mb-1 ${
               m.active ? "text-[#f5a623]" : "text-white"

@@ -28,7 +28,7 @@ const AboutSection = () => {
   return (
     <div
       ref={sectionRef}
-      className="bg-[#100e25] py-20 px-6"
+      className="bg-[#100e25] py-20 px-6 overflow-x-hidden"
     >
       <div className="max-w-6xl mx-auto grid md:grid-cols-2 gap-12 items-start">
         
@@ -61,7 +61,7 @@ const AboutSection = () => {
 
           {/* Co-Founder */}
           <div
-            className={`flex flex-col sm:flex-row transition-all duration-2000 delay-700 ${
+            className={`flex flex-col sm:flex-row transition-all duration-2000 delay-800 ${
               isVisible
                 ? "opacity-100 translate-x-0"
                 : "opacity-0 translate-x-20"

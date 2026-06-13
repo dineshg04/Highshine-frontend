@@ -8,14 +8,14 @@ const Home = () => {
         >
          
          <div
-              className="absolute inset-0 bg-cover bg-center"
+              className="absolute inset-0 bg-cover bg-center hidden md:block"
               style={{
                 backgroundImage: `url(${industrymeet})`,
               }}
           ></div>
 
   {/* Gradient Overlay */}
-  <div className="absolute inset-0 bg-linear-to-r from-brand-dark/100 via-brand-purple-mid/90 to-transparent"></div>
+  <div className=" absolute inset-0 bg-linear-to-r from-brand-dark/100 via-brand-purple-mid/90 to-transparent  "></div>
       
       <div className='relative z-10 p-10'>
 
