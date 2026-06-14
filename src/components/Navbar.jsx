@@ -5,13 +5,12 @@ import { logVisitor, getCountryName } from "../api/axiosapi";
 
 const Navbar = () => {
   const navLinks = [
-    { label: "Home", href: "#" },
-    { label: "Solutions", href: "#" },
-    { label: "Industries", href: "#" },
-    { label: "About Us", href: "#" },
-    { label: "Blogs", href: "#" },
-    { label: "Our Works", href: "#" },
-    { label: "Contact", href: "#" },
+    { label: "Home", href: "#home" },
+    { label: "Solutions", href: "#value" },
+    { label: "Industries", href: "#industrygap" },
+    { label: "About Us", href: "#aboutus" },
+    { label: "Blogs", href: "#photos" },
+    { label: "Our Works", href: "#industrygap" },
   ];
 
   const [scrolled, setScrolled] = useState(false);
