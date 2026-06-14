@@ -90,9 +90,9 @@ const Landingpage = () => {
     <div className='font-sans antialiased bg-brand-dark '>
         <Navbar/>
         <div id='home' data-section="hero" > <Home/></div>
-        <div data-section="milestones"> <Timeline/></div>
-        <div id='photos' data-section="team-photos">  <Photos/></div>
         <div id='aboutus' data-section="about">  <AboutSection/></div>
+        <div id='photos' data-section="team-photos">  <Photos/></div>
+        <div data-section="milestones"> <Timeline/></div>
         <div  data-section="leadership"> <CultureSection/></div>
         <div id='value' data-section="values"> <ValuesSection/></div>
         <div id='industrygap' data-section="industry-gap" ><IndustrygapSection/></div>

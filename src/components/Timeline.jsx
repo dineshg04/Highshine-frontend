@@ -37,9 +37,9 @@ const Timeline = () => {
       >
         {/* Dot */}
         <div
-          className={`   w-8 h-8 rounded-full border-2 flex items-center justify-center z-10 shrink-0 md:mb-4 transition-all hover:border-4 ${
+          className={`   w-8 h-8 rounded-full border-2 flex items-center justify-center z-10 shrink-0 md:mb-4 transition-all hover:border-8 ${
             m.active
-              ? "bg-[#f5a623] border-[#f5a623] shadow-[0_0_14px_rgba(245,166,35,0.6)]"
+              ? "bg-[#f5a623]  border-[#f5a623] shadow-[0_0_14px_rgba(245,166,35,0.6)]"
               : "bg-[#1e1640] border-purple-600"
           }`}
         >
