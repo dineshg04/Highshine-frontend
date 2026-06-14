@@ -51,6 +51,7 @@ const Landingpage = () => {
     }
   };
   
+   logVisitor();
     trackPageView({
       page_path:  "/about",
       page_title: "About Us — Highshine IT Solutions",
@@ -81,7 +82,7 @@ const Landingpage = () => {
 
 
 
-  logVisitor();
+ 
 }, []);
 
   return (
