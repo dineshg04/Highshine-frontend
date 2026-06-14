@@ -51,14 +51,9 @@ export const getCountryName = () => {
 
 export const logVisitor = async (payload) => {
   try {
-    const res = await fetch(`${BASE_URL}/api/visitor`, {
-      method: "POST",
-      headers: { "Content-Type": "application/json" },
-      body: JSON.stringify(payload),
-    });
-    if (!res.ok) console.warn("logVisitor: server returned", res.status);
+    await api.post("/api/visitor", payload);
   } catch (err) {
-    console.warn("logVisitor failed (backend may be offline):", err.message);
+    console.warn("logVisitor failed:", err.message);
   }
 };
 
