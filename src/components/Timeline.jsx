@@ -22,7 +22,7 @@ const Timeline = () => {
         </h2>
 
         {/* Timeline */}
-<div className="relative ml-40 md:ml-0">
+<div className="relative ml-28 md:ml-0">
   {/* Desktop Horizontal Line */}
   <div className="hidden md:block absolute top-4 left-0 right-0 h-0.5 bg-gradient-to-r from-purple-800 via-[#f5a623] to-purple-800" />
 
