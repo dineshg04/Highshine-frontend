@@ -2,7 +2,7 @@ import { useEffect, useState } from "react";
 import { api } from "../api/axiosapi";
 
 
-// ── Small reusable components ─────────────────────────────────────────────────
+
 
 function StatCard({ label, value }) {
   return (
@@ -31,7 +31,7 @@ function BarRow({ label, value, max }) {
   );
 }
 
-// ── Main Dashboard ─────────────────────────────────────────────────────────────
+
 
 export default function Dashboard() {
   const [summary, setSummary] = useState(null);   // { totalVisits, byPage, byCountry }
@@ -74,7 +74,7 @@ export default function Dashboard() {
   loadData();
 }, []);
 
-  // ── Loading state ─────────────────────────────────────────────────────────
+
   if (loading) {
     return (
       <div className="min-h-screen bg-[#0d0b1e] flex items-center justify-center">
@@ -86,7 +86,7 @@ export default function Dashboard() {
     );
   }
 
-  // ── Error state ───────────────────────────────────────────────────────────
+ 
   if (error) {
     return (
       <div className="min-h-screen bg-[#0d0b1e] flex items-center justify-center px-6">
