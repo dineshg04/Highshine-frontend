@@ -113,9 +113,7 @@ export default function Dashboard() {
         {/* Header */}
         <div className="mb-10">
           <div className="flex items-center gap-2 mb-2">
-            <div className="w-6 h-6 bg-[#f5a623] rounded-sm flex items-center justify-center">
-              <span className="text-[#0d0b1e] font-black text-xs">H</span>
-            </div>
+            
             <span className="text-white font-semibold">Highshine</span>
             <span className="text-gray-600 text-sm ml-1">/ Analytics Dashboard</span>
           </div>
